@@ -1,0 +1,10 @@
+name: yolov3-gpu
+
+dependencies:
+  - python==3.6.9
+  - pip
+  - tensorflow-gpu==1.13.1
+  - cudatoolkit
+  - cudnn
+  - pip:
+    - -r requirements.txt
